@@ -9,7 +9,7 @@ function getTranslationURL(input) {
 }
 
 function errorHandler(error) {
-    console.error("error ocured", error);
+    console.log("error ocured", error);
     alert("try again later")
 }
 
@@ -20,7 +20,7 @@ function clickHandler() {
     fetch(getTranslationURL(inputText))
         .then(response => response.json())
         .then(json => {
-            const translatedText = json.contents.translated;
+            var translatedText = json.contents.translated;
             outputDiv.innerText = translatedText;
         })
         .catch(errorHandler)
