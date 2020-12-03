@@ -6,10 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Translate</title>
+    <link href="/style.css" rel="stylesheet " />
+
     <style>
         textarea {
-            width:90%;
-            height:20vh;
+            width: 90%;
+            height: 20vh;
             margin: 2rem;
             padding: 1rem;
             display: block;
@@ -17,25 +19,65 @@
 
         #output {
             border: 1px solid black;
-            height:20vh;
-            width:90%;
+            height: 20vh;
+            width: 90%;
             margin: 2rem;
-            padding: 1rem; 
+            padding: 1rem;
         }
     </style>
 </head>
 
 <body>
-    <h1>Speak Banana - The minion language</h1>
+    <nav class="navigation container">
+    <header class="hero">
+        <img class="hero-image"/>
+        <img class="hero-image" src="image/B1.jpg" />
+        <div style="font-size: x-large">
+        <h1 class="hero-heading">💙💙 Speak Banana - <span class="heading-inverted">The Minion Language 💙💙</span></h1>
+        </div>
+    </header>
+    </nav>
+    
+
     <textarea id="txt-input" placeholder="Type your sentence in English and we will convert it to Banana"></textarea>
     <button id="btn-translate">Translate</button>
-    <div style="font-size: larger"> Output will come here 👇</div>
+
+
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h2>
+                <div style="font-size: larger">
+                    <div class="container container-center"> 💛 Here's your Output 👇 Go Banana.. 💛 </div>
+            </h2>
+    </section>
     <div id="output"></div>
 
 
-    
-    <script src="app.js"></script>
-</body>
 
+    <script src="app.js"></script>
+
+
+
+    <footer class="footer container">
+        <div class="footer-header">Connect with me on :
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline">
+                    <a class="link" href="https://github.com/AmbitiousNaina">
+                        Github </a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://twitter.com/GoddessNaina">
+                        Twitter</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://www.linkedin.com/in/sunayana-k-955b70200/">
+                        Linkedin</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
 
 </html>
