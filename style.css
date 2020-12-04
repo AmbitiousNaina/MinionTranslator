@@ -1,85 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #FBBF24  ;
+    --primary-color: #FBBF24;
     --black: #111827;
     --offwhite: #FEF3C7;
 }
-.navigation{
+
+.navigation {
     background-color: var(--primary-color);
+    color: var(--black);
+    padding: 0.1rem;
     border-bottom-left-radius: 1.5rem;
 }
 
 
+.margin-md {
+    margin: 2rem;
+}
 
-body{
+body {
     font-family: 'Texturina', serif;
     margin: 0px;
 }
-.hero{
-    padding: 2rem;
+
+.hero {
+    padding: 0rem;
 }
 
-hero-image{
-    max-width: 100px;
+.navigation .hero-image {
+    padding: 1rem;
+    max-width: 450px;
     margin: auto;
     display: block;
 }
-.hero .hero-heading .heading-inverted{
-    color: var(--offwhite);
+
+.hero .hero-heading {
+    text-align: center;
+    color: var(--black)
 }
 
+.navigation .hero .hero-heading .heading-inverted {
+    color: var(--offwhite);
+
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
 
 button {
+
     background-color: var(--primary-color);
     border: strong;
-    margin: 2rem;
-    padding: 0.5rem 2rem;
+    margin: 1.2rem;
+    padding: 0.1rem 2rem;
     font-family: 'Texturina', serif;
-    font-size: larger;
+    font-size: large;
     border-radius: 0.5rem;
-}
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+
 }
 
-.container-center{
-    max-width: 600px;
+.container {
+    padding: 1rem;
     margin: auto;
-    padding-block-end: 0rem;
 }
 
-.list-non-bullet{
+.container-center {
+    max-width: 230px;
+    margin: auto;
+    padding: 1rem;
+    padding-block-end: 1rem;
+}
+
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
-    display:inline;
+.list-item-inline {
+    display: inline;
     padding: 0rem 0.5rem;
 }
 
-.ow{
+.ow {
     background-color: var(--offwhite);
 }
-.footer{
+
+.footer {
     background-color: var(--primary-color);
-    padding: 1rem 0rem;
+    padding: 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 }
-.footer .footer-header{
+
+.footer .footer-header {
     font-weight: bold;
     font-size: medium;
 }
 
-.footer .link{
+.footer .link {
 
     color: white;
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
-
